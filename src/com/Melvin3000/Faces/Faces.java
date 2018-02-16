@@ -18,8 +18,7 @@ public class Faces {
 	 * probably throws a bunch of exceptions
 	 */
 	public static void main(String[] args) throws Exception {
-	
-		getFace(getSkin(getUUID("JavelinFury")));
+
 		List<String> names = Files.readAllLines(new File("names.txt").toPath());
 		List<BufferedImage> faces = new ArrayList<BufferedImage>();
 		
